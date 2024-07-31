@@ -117,7 +117,7 @@ const ODataListApp = () => {
       <View style={[styles.card, { backgroundColor: cardBackgroundColor, borderColor: 'red' }]}>
         <Text style={[styles.projectName, { color: cardTextColor }]}>Talep Konusu: {item.TalepKonu}</Text>
         <Text style={[styles.bodyText, { color: cardTextColor }]}>Talep No: {item.TalepID}</Text>
-        <Text style={[styles.bodyText, { color: cardTextColor }]}>Talep Eden: {item.TalepEdenPersonelID?.PersonelAdi}</Text>
+        <Text style={[styles.bodyText, { color: cardTextColor }]}>Talep Edendfss: {item.TalepEdenPersonelID?.PersonelAdi}</Text>
         <Text style={[styles.bodyText, { color: cardTextColor }]}>Talep Tipi: {item.TalepTipID?.TalepTipAdi}</Text>
         <Text style={[styles.bodyText, { color: cardTextColor }]}>Durum: {item.TalepDurumID?.MasterDurum}</Text>
         <Text style={[styles.bodyText, { color: cardTextColor }]}>Tarih: {item.TalepZamani}</Text>
