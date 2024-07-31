@@ -1,0 +1,97 @@
+{
+  "expo": {
+    "name": "Güncel Support",
+    "slug": "guncel-support-app",
+    "version": "1.1.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#00101c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.guncelyazilim.com.GuncelSupport",
+      "buildNumber": "1.1.5",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "NSFaceIDUsageDescription": "This app uses Face ID and Touch ID to verify the user's identity and protect sensitive data",
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "NSCameraUsageDescription": "A message that tells the user why the app is requesting access to the device’s camera.",
+        "NSMicrophoneUsageDescription": "A message that tells the user why the app is requesting access to the device’s microphone.",
+        "LSApplicationQueriesSchemes": [
+          "mailto",
+          "tel",
+          "lyft"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.guncelyazilim.com.GuncelSupport",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 10,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC",
+        "VIBRATE"
+      ],
+      "usesCleartextTraffic": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          },
+          "ios": {
+            "flipper": true
+          }
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1a253937-76ef-47c1-8157-547576f403b8"
+      }
+    },
+    "owner": "guncelyazilim"
+  }
+}

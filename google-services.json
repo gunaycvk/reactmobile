@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380279840195",
+    "project_id": "guncelsupportmobile",
+    "storage_bucket": "guncelsupportmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380279840195:android:eec0d33572c9a22763f176",
+        "android_client_info": {
+          "package_name": "com.guncelyazilim.com.GuncelSupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380279840195-i8e4h374315eeibv3ppec6tajp9smk13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLdHrkuVvli61fGG_4t1i9Lg0GOI7ZyXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380279840195-i8e4h374315eeibv3ppec6tajp9smk13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
